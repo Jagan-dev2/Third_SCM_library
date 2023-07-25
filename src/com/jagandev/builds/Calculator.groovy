@@ -2,9 +2,8 @@ package com.jagandev.builds;
 
 class Calculator {
     def jenkins
-}
-
-def Calculator(jenkins){
+    
+Calculator(jenkins){
     this.jenkins = jenkins
 }
 
@@ -15,4 +14,5 @@ def add(firstNumber,secondNumber)
 def multiply(firstNumber,secondNumber)
 {
     return firstNumber*secondNumber
+}
 }
